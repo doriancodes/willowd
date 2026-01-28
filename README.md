@@ -1,5 +1,6 @@
 # Willowd
 
+```shell
 docker build -t willow-sys .
 
 # --cap-add SYS_ADMIN : Allows the container to run 'mount'
@@ -28,3 +29,4 @@ cat /mnt/willow/test.txt
 
 # 5. List the Virtual Filesystem
 ls -la /mnt/willow
+```
